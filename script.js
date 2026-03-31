@@ -1,29 +1,28 @@
-let idade = 18;
-if (idade >= 18) {
-    console.log("Maior de idade");
+var nome = "Joao";
+console.log(nome);
+
+
+let idade = 15;
+idade = 16;
+console.log(idade);
+
+
+const pi = 3.14;
+console.log(pi);
+
+
+var x = 10;
+if (true) {
+    var x = 20;
 }
+console.log(x);
 
-let idadi = 18;
-
-
-if (idade >= 18) {
-    console.log("Maior de idade");
-} else {
-    console.log("Menor de idade");
+if (true) {
+    let y = 30;
 }
+console.log(y);
 
-
-let dia = 2;
-switch (dia) {
-    case 1:
-        console.log("Domingo");
-        break;
-    case 2:
-        console.log("Segunda");
-        break;
-    case 3:
-        console.log("Terca");
-        break;
-    default:
-        console.log("Outro dia");
+if (true) {
+    let z = 50;
 }
+console.log(z); 
